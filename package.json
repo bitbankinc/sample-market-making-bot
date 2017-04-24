@@ -1,0 +1,32 @@
+{
+  "name": "sample-market-making-bot",
+  "version": "1.0.0",
+  "description": "Sample market making bot at bitbank.cc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitbankinc/sample-market-making-bot.git"
+  },
+  "dependencies": {
+    "pubnub": "latest",
+    "bluebird": "latest",
+    "request": "latest",
+    "request-promise": "latest",
+    "lru-cache": "latest",
+    "node-bitbankcc": "1.0.1",
+    "async": "latest"
+  },
+  "keywords": [
+    "bitbank.cc",
+    "bitcoin"
+  ],
+  "author": "Daisuke Shosaki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitbankinc/sample-market-making-bot/issues"
+  },
+  "homepage": "https://github.com/bitbankinc/sample-market-making-bot#readme"
+}
